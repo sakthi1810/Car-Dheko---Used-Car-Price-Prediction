@@ -21,12 +21,15 @@ For categorical columns, use mode imputation or create a new category for missin
 # Standardising Data Formats:
 Check for all data types and do the necessary steps to keep the data in the correct format.
 Eg. If a data point has string formats like 70 kms, then remove the unit ‘kms’ and change the data type from string to integers.
-# Encoding Categorical Variables: Convert categorical features into numerical values using encoding techniques.
+# Encoding Categorical Variables:
+Convert categorical features into numerical values using encoding techniques.
 Use one-hot encoding for nominal categorical variables.
 Use label encoding or ordinal encoding for ordinal categorical variables.
-# Normalizing Numerical Features: Scale numerical features to a standard range, usually between 0 and 1.( For necessary algorithms)
+# Normalizing Numerical Features:
+Scale numerical features to a standard range, usually between 0 and 1.( For necessary algorithms)
 Apply techniques like Min-Max Scaling or Standard Scaling.
-# Removing Outliers: Identify and remove or cap outliers in the dataset to avoid skewing the model.
+# Removing Outliers:
+Identify and remove or cap outliers in the dataset to avoid skewing the model.
 Use IQR (Interquartile Range) method or Z-score analysis.
 
 
@@ -36,17 +39,22 @@ Descriptive Statistics: Calculate summary statistics to understand the distribut
 Mean, median, mode, standard deviation, etc.
 Data Visualization: Create visualizations to identify patterns and correlations.
 Use scatter plots, histograms, box plots, and correlation heatmaps.
-# Feature Selection: Identify important features that significantly impact the car prices.
+# Feature Selection:
+Identify important features that significantly impact the car prices.
 Use techniques like correlation analysis, feature importance from models, and domain knowledge.
 
  # Model Development
-# Train-Test Split: Split the dataset into training and testing sets to evaluate model performance.
+# Train-Test Split:
+Split the dataset into training and testing sets to evaluate model performance.
 Common split ratios are 70-30 or 80-20.
-# Model Selection: Choose appropriate machine learning algorithms for price prediction.
+# Model Selection:
+Choose appropriate machine learning algorithms for price prediction.
 Linear Regression, Decision Trees, Random Forests, Gradient Boosting Machines, etc.
-# Model Training: Train the selected models on the training dataset.
+# Model Training: 
+Train the selected models on the training dataset.
 Use cross-validation techniques to ensure robust performance.
-# Hyperparameter Tuning: Optimize model parameters to improve performance.
+# Hyperparameter Tuning:
+Optimize model parameters to improve performance.
 Use techniques like Grid Search or Random Search.
 
 # Model Evaluation
